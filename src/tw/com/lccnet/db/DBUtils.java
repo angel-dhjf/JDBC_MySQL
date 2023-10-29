@@ -33,7 +33,7 @@ public class DBUtils {
 	//JDBC 
 	private Connection conn=null;
 	
-	//建構子
+	
 	private DBUtils() {
 		try {
 			Class.forName(JDBC_DRIVER);
