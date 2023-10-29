@@ -16,7 +16,7 @@ import java.sql.Statement;
  * ResultSet 接收資料庫的搜尋結果
  * 
  * 檔案，資料庫，網路
- * port先開後關，都會要求進行異常處理
+ * port先開後關，皆會要求進行異常處理
  * 
  */
 
@@ -27,9 +27,9 @@ public class DBUtils {
 	//連接資料庫位址
 	private final String JDBC_URL="jdbc:mysql://127.0.0.1:3306/guidb?serverTimezone=UTC&useSSL=false"; 
 	//資料庫帳號
-	private final String JDBC_USER="root"; 
+	private final String JDBC_USER="資料庫帳號"; 
 	//資料庫密碼
-	private final String JDBC_PASSWORD="Password123";
+	private final String JDBC_PASSWORD="資料庫密碼";
 	//JDBC 
 	private Connection conn=null;
 	
