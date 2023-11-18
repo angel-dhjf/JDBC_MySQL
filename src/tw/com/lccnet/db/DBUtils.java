@@ -57,7 +57,7 @@ public class DBUtils {
 		return new DBUtils();
 	}
 	
-	
+	//方法的多載（傳入JDBC四個功能）
 	public void close(Connection conn) {
 		if(conn != null) {
 			try {
