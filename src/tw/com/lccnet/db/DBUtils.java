@@ -89,7 +89,13 @@ public class DBUtils {
 	}
 	
 	public void close(ResultSet rs) {
-		
+		if(rs != null) {
+			try {
+				rs.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 	
